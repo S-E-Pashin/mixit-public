@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>антисептики"Mixit"</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="fonts/abel400.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/RFDewi-800.woff2" rel="preload" as="font" crossorigin="anonymous">
+</head>
+<body>
+<header class="header">
+  <div class="header__wrapper">
+    <div class="header__logo">
+      <img src="img/icon-logo-desk.png" alt="Логотип компании Mixit" width="217" height="34">
+    </div>
+
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="#">О компании</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <h1 class="visually_hidden">Сайт "jewellery"</h1>
+  <section class="promo">
+    <div class="promo__wrapper">
+      <div class="promo__header">
+        <h2 class="promo__heading">Антисептики и защитные маски </h2>
+        <p class="promo__text">Оптом от производителя</p>
+      </div>
+
+      <div class="promo__button-place">
+        <a href="#id-about" class="promo__button promo__button-antiseptics">
+          Антисептики
+        </a>
+        <a href="#" class="promo__button promo__button-masks">
+          Защитные маски
+        </a>
+      </div>
+
+      <div class="promo__footer">
+        <p class="promo__info-text">
+          * Принимаем заказы от 1000 штук
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="id-about">
+    <div class="about__wrapper">
+      <div class="about__header">
+        <h2 class="about__heading">
+          <span class="about__heading-product">Антисептики</span> <span class="about__heading-company">mixit</span>
+        </h2>
+      </div>
+      <div class="about__body">
+        <div class="about__field about__field-work">
+          <div class="about__field-header">
+            <h3 class="about__field-heading">
+              Как работают наши антисептики?
+            </h3>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">изопропиловый спирт (не менее 60% в составе) уничтожает 99,9% вирусов и&nbsp;бактерий
+              меньше чем за 30 секунд
+            </li>
+            <li class="about__item">пантенол увлажняет и смягчает кожу</li>
+            <li class="about__item">феноксиэтанол обладает бактерицидным действием</li>
+          </ul>
+        </div>
+        <div class="about__field about__field-result">
+          <div class="about__field-header">
+            <h3 class="about__field-heading">
+              Результат от использования
+            </h3>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">быстрое очищение кожи рук</li>
+            <li class="about__item">усиленная защита от микробов и вирусов</li>
+            <li class="about__item">полное отсутствие ощущения липкости</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <div class="catalog__wrapper">
+      <div class="catalog__header">
+        <h2 class="catalog__heading">Каталог антисептиков</h2>
+      </div>
+      <div class="catalog__body">
+        <p class="catalog__text catalog__text--first">
+          Предлагаем вам широкую линейку качественных антисептических средств, имеющих паспорта качества, по оптовым ценам.
+          <span>Благодаря собственному производству мы можем поставлять продукцию в любых объемах и таре под заказ.</span>
+        </p>
+        <p class="catalog__text catalog__text--second">
+          Мы предлагаем линейку качественных антисептических средств по оптовым ценам. Так как мы являемся производителями, можем поставлять антисептики в любых ёмкостях.
+        </p>
+      </div>
+      <div class="catalog__footer">
+        <a href="#" class="catalog__link">
+          Сертификаты качества
+        </a>
+
+        <a href="#" class="catalog__link catalog__link-popup">
+          Кнопка открытия попапа
+        </a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+
+
+
+<footer class="footer">
+  <div class="footer__wrapper">
+    <div class="footer__header">
+
+    </div>
+  </div>
+
+</footer>
+
+<section class="popup popup--close" id="popup">
+  <div class="popup__wrapper">
+    <button class="popup__button popup__button-close" type="button">
+      <svg class="popup__cross" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="img/sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <div class="popup__header">
+      <div class="popup__heading">
+        <h3><span>Заказать</span> антисептики</h3>
+      </div>
+      <div class="popup__text">
+        <p>Цены могут гибко меняться в зависимости от объема заказа</p>
+      </div>
+    </div>
+    <form class="popup__body" method="post" action="https://echo.htmlacademy.ru">
+      <div class="popup__field popup__field-name">
+        <label for="popup-id-name" class="popup__label visually_hidden">Поле для ввода имени пользователя</label>
+        <input type="text" name="popup-name-user-name" placeholder="Имя" id="popup-id-name" required="" minlength="1" maxlength="20">
+      </div>
+      <div class="popup__field popup__field-tel">
+        <label for="popup-id-tel" class="visually_hidden">Поле для ввода телефона</label>
+        <input type="tel" name="popup-name-tel" placeholder="Телефон" id="popup-id-tel" required="" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+      </div>
+      <div class="popup__field">
+        <label for="popup-id-email" class="popup__label visually_hidden">Поле для ввода электронной почты</label>
+        <input class="popup__input popup__input-email" type="email" name="popup-name-email" placeholder="E-mail" id="popup-id-email" required="">
+      </div>
+      <div class="popup__footer">
+        <button class="popup__button-submit" type="submit" aria-label="Нажмите для того что бы мы смогли с вами связаться">
+          Заказать антисептики
+        </button>
+      </div>
+    </form>
+    <div class="popup__image">
+      <picture class="popup__picture">
+        <source type="image/webp" srcset="img/popup-tube_desk_1x_jpg.webp 1x, img/popup-tube_desk_2x_jpg.webp 2x">
+        <!-- 1х: 504px; 2x: 1008 -->
+        <img src="img/popup-tube_desk_1x_jpg.jpg" srcset="img/popup-tube_desk_2x_jpg.jpg 2x" width="504" height="630" alt="Изображение одного из наших антисептиков">
+      </picture>
+    </div>
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script src="js/jquery/jquery.maskedinput.min.js"></script>
+<script src="js/bundle.js"></script>
+
+</body>
+</html>
